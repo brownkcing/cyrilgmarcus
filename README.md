@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/cyril-marcus/">
-    <img alt="Cyril Marcus" src="src/images/favicon.ico" width="60" />
+    <img alt="Cyril Marcus" src="src/images/favicon.png" width="60" />
   </a>
 </p>
 <h1 align="center">
