@@ -4,8 +4,8 @@ import * as Mixins from '../Mixins';
 import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
 import Placeholder from '../images/placeholder.png';
-import Initium from '../images/initium.png';
-import Shopvery from '../images/shopvery.png'
+import Initium from '../images/initium.jpg';
+import Shopvery from '../images/shopvery.jpg'
 import { HireMe, LinkButton, HiremePage } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
@@ -200,7 +200,7 @@ class Homepage extends React.Component {
                 <t.H2 bold>Initium </t.H2>
                 <t.P>Initium</t.P>
                 <t.P>A start-up for your startup</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
+                <LinkButton primary bold className="link" as="a" target="_blank" href="https://initium.netlify.com/">
                   Work in progress lorem ipsum dolor sit amet
                 </LinkButton>
               </DivWrapper>
@@ -218,7 +218,7 @@ class Homepage extends React.Component {
                 <t.H2 bold>Shopvery</t.H2>
                 <t.P>Shopvery</t.P>
                 <t.P>Grocery deliveries right at your door step</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
+                <LinkButton primary bold className="link" as="a" target="_blank" href="https://codepen.io/brownkcing/full/ZPVZwK">
                   Work in progress lorem ipsum dolor sit amet
                 </LinkButton>
               </DivWrapper>
