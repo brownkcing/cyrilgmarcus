@@ -16,5 +16,5 @@
   <a href="https://app.netlify.com/sites/cyrilmarcus/deploys" target="_blank">
     <img src="https://api.netlify.com/api/v1/badges/2ad70956-0d4f-48c3-89d9-12b59aa95369/deploy-status" alt="Netlify Status" />
   </a>
+  Need a help with web designs? Contact me on LinkedIn https://www.linkedin.com/in/cyril-marcus.
 </p>
-Need a help with web designs? Contact me on LinkedIn https://www.linkedin.com/in/cyril-marcus
