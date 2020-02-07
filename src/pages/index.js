@@ -183,11 +183,11 @@ class Homepage extends React.Component {
                 <ItemImage src={Placeholder} alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>Janice's Artwork</t.H2>
+                <t.P>Work in progress</t.P>
+                <t.P>Lorem ipsum dolor sit amet</t.P>
                 <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
+                  work progress lorem ipsum dolor sit amet
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -196,10 +196,10 @@ class Homepage extends React.Component {
             <BlockContent>
               <DivWrapper>
                 <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.P>Initium</t.P>
+                <t.P>A start-up for your startup</t.P>
                 <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
+                  Work in progress lorem ipsum dolor sit amet
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
@@ -214,15 +214,15 @@ class Homepage extends React.Component {
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.P>Shopvery</t.P>
+                <t.P>Grocery deliveries right at your door step</t.P>
                 <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
+                  Work in progress lorem ipsum dolor sit amet
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
           </Block>
-          <Block>
+          {/*<Block> 
             <BlockContent>
               <DivWrapper>
                 <t.H2 bold>Placeholder website</t.H2>
@@ -236,7 +236,7 @@ class Homepage extends React.Component {
                 <ItemImage src={Placeholder} alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
-          </Block>
+          </Block> */}
           <WorkWithMe>
             <t.H1 green>Get in touch with me</t.H1>
             <t.LargeP>Fancy working with me? Contact me for more info! </t.LargeP>
