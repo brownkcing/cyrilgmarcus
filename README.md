@@ -13,8 +13,7 @@
 
 <p align="center">
   Second iteration on my own personal portfolio site
-<a align="center href="https://cyrilmarcus.netlify.com/" target="_blank">
- cyrilmarcus.netlify.com </a>
+<a href="https://cyrilmarcus.netlify.com/" target="_blank"> cyrilmarcus.netlify.com</a>
  This site is built in Gatsby and hosted by Netlify
 </p>
 <p align="center">
