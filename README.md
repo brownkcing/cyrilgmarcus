@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  Second iteration on my own personal portfolio site
+  Second iteration of my personal portfolio site
 <a href="https://cyrilmarcus.netlify.com/" target="_blank"> cyrilmarcus.netlify.com.</a>
   This site is built in<a href="https://www.gatsbyjs.org/" target="_blank"> Gatsby </a> and hosted by <a href="https://www.netlify.com/" target="_blank"> Netlify. </a>
 </p>
