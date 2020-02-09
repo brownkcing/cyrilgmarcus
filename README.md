@@ -1,43 +1,21 @@
 <p align="center">
-  <a href="https://www.linkedin.com/in/miloslekovic/">
-    <img alt="Milos Lekovic" src="src/images/favicon.ico" width="60" />
+  <a href="https://www.linkedin.com/in/cyril-marcus/">
+    <img alt="Cyril Marcus" src="src/images/favicon.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Portfolio website built in Gatsby
+  cyrilmarcus.netlify.com
 </h1>
 
-<a href="https://relaxed-bhaskara-5abd0a.netlify.com/" target="_blank">
-  Preview live version
-</a>
+<p align="center">
+  Second iteration of my personal portfolio site
+<a href="https://cyrilmarcus.netlify.com/" target="_blank"> cyrilmarcus.netlify.com.</a>
+  This site is built in<a href="https://www.gatsbyjs.org/" target="_blank"> Gatsby </a> and hosted by <a href="https://www.netlify.com/" target="_blank"> Netlify. </a>
+</p>
 
-Kick off your portfolio website with this default boilerplate. This barebones starter ships with the main portfolio items you might need. 
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
-
-## 🚀 Quick start
-
-1.  **Install the dependencies.**
-
-    ```sh
-    # install the dependencies
-    npm install
-    ```
-
-2.  **Build it. Open the source code and start editing!**
-
-    Navigate into your your portfolio's directory and start it up.
-
-    ```sh
-    gatsby develop
-    ```
-    Your site is now running at `http://localhost:8000`!
-
-3.  **Deploy it.**
-
-    After applying your changes, run this command to deploy it.
-
-    ```sh
-    gatsby build
-    gatsby serve
-    ```
+<p align="center"> Need a help with web designs? Contact me on LinkedIn https://www.linkedin.com/in/cyril-marcus.</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/cyrilmarcus/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/2ad70956-0d4f-48c3-89d9-12b59aa95369/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
