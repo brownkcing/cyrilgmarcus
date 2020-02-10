@@ -10,7 +10,6 @@ import * as t from '../Typography';
 import { lighten, darken } from 'polished';
 import Helmet from 'react-helmet';
 import Avatar from '../images/avatar.jpg';
-
 const HeaderWrapper = styled.div`
   height: auto;
   max-height: 48px;
@@ -246,7 +245,7 @@ class Header extends React.Component {
                 <img alt="Close menu" src={Close} />
               </Burger>
               <li>
-                <Button theme={theme} to="about-me">
+                <Button theme={theme} to="/about-me/">
                   About me
                 </Button>
               </li>

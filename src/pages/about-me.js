@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import * as Mixins from '../Mixins';
 import * as t from '../Typography';
-import Layout, { Content } from '../components/Layout';
+import Layout from '../components/Layout';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
 import Img from 'gatsby-image';

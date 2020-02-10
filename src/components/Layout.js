@@ -45,10 +45,10 @@ const Layout = ({ children, theme, bigFooter, mediumFooter, openContactPopup }) 
           title={data.site.siteMetadata.title}
           meta={[
             {
-              name: 'description',
+              name: 'cyril marcus portfolio netlify',
               content: 'Cyril/s Portfolio'
             },
-            { name: 'keywords', content: 'portfolio cyril' }
+            { name: 'cyril marcus portfolio netlify', content: 'portfolio cyril marcus' }
           ]}
         >
           <html lang="en" />

@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components';
-import Colors from './Colors';
 import * as t from './Typography';
 
 import BackgroundImg from './images/background2.jpeg';
