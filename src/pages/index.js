@@ -5,7 +5,7 @@ import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
 import Placeholder from '../images/placeholder.png';
 import Initium from '../images/initium.jpg';
-import Shopvery from '../images/shopvery.jpg'
+import Shopvery from '../images/shopvery.jpg';
 import { HireMe, LinkButton, HiremePage } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
@@ -173,7 +173,7 @@ class Homepage extends React.Component {
               Building web-based application requires some of my favourite tech stacks. I've used these more or less to
               get the job done.
             </t.P>
-            <TechStacks></TechStacks>
+            <TechStacks>something </TechStacks>
 
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
@@ -218,13 +218,20 @@ class Homepage extends React.Component {
                 <t.H2 bold>Shopvery</t.H2>
                 <t.P>Shopvery</t.P>
                 <t.P>Grocery deliveries right at your door step</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="https://codepen.io/brownkcing/full/ZPVZwK">
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://codepen.io/brownkcing/full/ZPVZwK"
+                >
                   Work in progress lorem ipsum dolor sit amet
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
           </Block>
-          {/*<Block> 
+          <Block>
             <BlockContent>
               <DivWrapper>
                 <t.H2 bold>Placeholder website</t.H2>
@@ -238,7 +245,7 @@ class Homepage extends React.Component {
                 <ItemImage src={Placeholder} alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
-          </Block> */}
+          </Block>
           <WorkWithMe>
             <t.H1 green>Get in touch with me</t.H1>
             <t.LargeP>Fancy working with me? Contact me for more info! </t.LargeP>

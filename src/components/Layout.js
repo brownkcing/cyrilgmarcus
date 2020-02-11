@@ -7,13 +7,6 @@ import Header from './Header';
 import Footer from './Footer';
 import GlobalStyles from '../GlobalStyles';
 import * as Mixins from '../Mixins';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import DevIcon from 'devicon-react-svg';
-
-library.add(fab, faCheckSquare, faCoffee, faGithub, faLinkedin);
 
 export const Content = styled.div`
   ${Mixins.contentMixin}
@@ -21,10 +14,6 @@ export const Content = styled.div`
 
 export const LayoutWrapper = styled.div`
   position: relative;
-`;
-
-export const Icons = styled(DevIcon)`
-  width: 80px;
 `;
 
 const Layout = ({ children, theme, bigFooter, mediumFooter, openContactPopup }) => (

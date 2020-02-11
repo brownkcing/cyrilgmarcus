@@ -37,7 +37,7 @@ const SocialMedia = () => (
         <FontAwesomeIcon icon={['fab', 'github-square']} color="#FFFED2" size="2x" />
       </a>
       <a href="https://codepen.io/brownkcing">
-        <FontAwesomeIcon icon={['fab', 'codepen']} color="#000" size="2x" />
+        <FontAwesomeIcon icon={['fab', 'codepen']} color="#f0f1f2" size="2x" />
       </a>
     </div>
   </FlexWrapper>
