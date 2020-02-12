@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import ReactTooltip from 'react-tooltip';
 import * as Mixins from '../Mixins';
-import DevIcon from 'devicon-react-svg';
 import gatsby from '../images/gatsby.png';
 import firebase from '../images/firebase.png';
 import { FaGithub, FaHtml5, FaReact, FaNodeJs, FaGitAlt, FaWordpress } from 'react-icons/fa';

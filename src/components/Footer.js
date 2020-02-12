@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import Colors from '../Colors';
 import { Content } from './Layout';
 import { media } from '../MediaQueries';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaGithub, FaCodepen, FaLinkedinIn } from 'react-icons/fa';
+import { IconContext } from 'react-icons';
 
 const FooterWrapper = styled.div`
   background: ${Colors.darkest};
@@ -30,15 +31,17 @@ const FlexWrapper = styled.div`
 const SocialMedia = () => (
   <FlexWrapper>
     <div>
-      <a href="https://www.linkedin.com/in/cyril-marcus/">
-        <FontAwesomeIcon icon={['fab', 'linkedin']} color="#0e76a8" size="2x" />
-      </a>
-      <a href="https://github.com/brownkcing">
-        <FontAwesomeIcon icon={['fab', 'github-square']} color="#FFFED2" size="2x" />
-      </a>
-      <a href="https://codepen.io/brownkcing">
-        <FontAwesomeIcon icon={['fab', 'codepen']} color="#f0f1f2" size="2x" />
-      </a>
+      <IconContext.Provider value={{ size: '40px' }}>
+        <a href="https://www.linkedin.com/in/cyril-marcus/">
+          <FaLinkedinIn style={{ color: '#0e76a8' }} />
+        </a>
+        <a href="https://github.com/brownkcing">
+          <FaGithub style={{ color: '#FFFED2' }} />
+        </a>
+        <a href="https://codepen.io/brownkcing">
+          <FaCodepen style={{ color: '#f0f1f2' }} />
+        </a>
+      </IconContext.Provider>
     </div>
   </FlexWrapper>
 );

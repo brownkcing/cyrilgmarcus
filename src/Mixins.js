@@ -43,7 +43,7 @@ export const aboveFoldMixin = css`
   background-image: url(${BackgroundImg});
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top -70px;
+  background-position: center;
   text-align: center;
   ${t.LargeP} {
     padding: 0 30px;
