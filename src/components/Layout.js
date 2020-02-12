@@ -7,6 +7,11 @@ import Header from './Header';
 import Footer from './Footer';
 import GlobalStyles from '../GlobalStyles';
 import * as Mixins from '../Mixins';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fab, faCheckSquare, faCoffee, faGithub, faLinkedin);
 
 export const Content = styled.div`
   ${Mixins.contentMixin}
