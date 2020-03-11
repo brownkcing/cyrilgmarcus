@@ -20,6 +20,23 @@ export const Button = styled(Link)`
     background: ${Colors.white};
   }
 `;
+export const Button2 = styled(Link)`
+  background: transparent;
+  color: ${Colors.whiteish};
+  line-height: 1.05;
+  font-size: 16px;
+  font-weight: bold;
+  padding: ${props => (props.large ? '15px 34px;' : '12px 30px;')}
+  border: 1px;
+  border-radius: 100px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  transition-duration: 0.3s;
+    &:hover {
+      color: #3c3b3b;
+  }
+`;
 
 export const HireMe = styled.div`
   line-height: 1.05;
@@ -58,7 +75,7 @@ export const HiremePage = styled.div`
   }
 `;
 
-export const LinkButton = styled(Button)`
+export const LinkButton = styled(Button2)`
   font-size: 0.9;
   border: none;
   text-decoration: underline;

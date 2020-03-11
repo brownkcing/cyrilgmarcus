@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import * as Mixins from '../Mixins';
 import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
+import Janice from '../images/janiceport.png';
 import Placeholder from '../images/placeholder.png';
 import Initium from '../images/initium.jpg';
 import Shopvery from '../images/shopvery.jpg';
@@ -11,7 +12,7 @@ import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
 import Colors from '../Colors';
 import Img from 'gatsby-image';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { darken } from 'polished';
 import { TechStacks } from '../components/TechStacks';
 
@@ -63,10 +64,43 @@ const DivWrapper = styled.div`
   }
 `;
 
+const ImageContainer = styled.div`
+  position: relative;
+  &:hover .ItemImage {
+    opacity: 0.3;
+  }
+  &:hover .TextMiddle {
+    opacity: 1;
+  }
+`;
+
 const ItemImage = styled.img`
+  opacity: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   max-width: 85%;
   position: relative;
+  transition: 0.5s ease;
   ${media.tablet`max-width: none;`}
+`;
+
+const TextMiddle = styled.a`
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  .link2 {
+    padding: 0;
+    font-size: 30px;
+    color: ${Colors.darkest};
+    text-decoration-style: dotted;
+  }
+  @media only screen and (max-width: 600px) {
+    max-width: none;
+    left: 50% !important;
+  }
 `;
 
 const HomepageWrapper = styled.div`
@@ -91,7 +125,7 @@ const HomepageWrapper = styled.div`
     ${media.tablet`max-width: 50%; margin: 0 auto 20px auto;`}
   }
   .link {
-    padding: 0;
+    padding: 1em;
     color: ${Colors.darkest};
     text-decoration: underlined;
     svg {
@@ -158,8 +192,7 @@ class Homepage extends React.Component {
               Hi, I'm Cyril
             </t.H1>
             <t.LargeP white align="center" max45>
-              I'm a Front-End Developer. Passionate and flexible learner, with a knack of solving puzzles and design
-              enthusiast.
+              I'm a Front-End Developer. A curious one with a knack of solving puzzles and design enthusiast.
             </t.LargeP>
             <HireMe style={{ border: '1px solid #fcfcfc' }} large onClick={this.openContactPopup} book>
               Hire me
@@ -176,20 +209,41 @@ class Homepage extends React.Component {
             <TechStacks>something </TechStacks>
 
             <t.H2 primary align="center" bold className="portfolio">
-              Portfolio
+              Project
             </t.H2>
           </Content>
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ImageContainer>
+                  <ItemImage className="ItemImage" src={Janice} alt="JaniceArtwork" />
+                  <TextMiddle className="TextMiddle">
+                    <LinkButton primary bold className="link2" as="a" target="_blank" href="https://janicezilin.art">
+                      View Live
+                    </LinkButton>
+                  </TextMiddle>
+                </ImageContainer>
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Janice's Artwork</t.H2>
-                <t.P>Work in progress</t.P>
-                <t.P>Lorem ipsum dolor sit amet</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  work progress lorem ipsum dolor sit amet
+                <t.P>Client's art portfolio.</t.P>
+                <t.P>
+                  Minimalistic in design, the portfolio is perfect for showcasing their talent. The site is a headless
+                  CMS from DatoCMS with GatsbyJS built on top and deployed on Netlify. Utilizing static-generated page,
+                  it loads not only fast but responsive as well.
+                </t.P>
+                <LinkButton primary bold className="link" as="a" target="_blank" href="https://janicezilin.art">
+                  View Live
+                </LinkButton>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://github.com/brownkcing/janiceart"
+                >
+                  Repo
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
