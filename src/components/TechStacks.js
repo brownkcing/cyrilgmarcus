@@ -4,7 +4,7 @@ import ReactTooltip from 'react-tooltip';
 import * as Mixins from '../Mixins';
 import gatsby from '../images/gatsby.png';
 import firebase from '../images/firebase.png';
-import { FaGithub, FaHtml5, FaReact, FaNodeJs, FaGitAlt, FaWordpress } from 'react-icons/fa';
+import { FaGithub, FaHtml5, FaReact, FaNodeJs, FaGitAlt, FaWordpress, FaPhp, FaLaravel } from 'react-icons/fa';
 import { IoLogoCss3, IoLogoSass, IoLogoJavascript } from 'react-icons/io';
 import { DiMongodb, DiHeroku, DiVisualstudio } from 'react-icons/di';
 import { IconContext } from 'react-icons';
@@ -27,12 +27,18 @@ export const TechStacks = () => (
         <IoLogoJavascript style={{ color: '#f7df1e' }} data-tip="javascript" />
       </div>
       <div>
+        <FaPhp style={{ color: '#787cb5' }} data-tip="php" />
+      </div>
+      <div>
         <IoLogoSass style={{ color: '#cc6699' }} data-tip="sass" />
       </div>
       <div>
         <FaReact style={{ color: '#00d8ff' }} data-tip="react" />
       </div>
       <img src={gatsby} style={{ height: '70px', width: '80px', padding: '5px' }} data-tip="gatsbyjs" alt="gatsbyjs" />
+      <div>
+        <FaLaravel style={{ color: '#fb503b' }} data-tip="laravel" />
+      </div>
       <div>
         <FaNodeJs style={{ color: '#6cc24a' }} data-tip="nodejs" />
       </div>

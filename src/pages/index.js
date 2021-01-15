@@ -5,7 +5,7 @@ import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
 import Janice from '../images/janiceport.png';
 import Placeholder from '../images/placeholder.png';
-import Initium from '../images/initium.jpg';
+import Startyfy from '../images/startyfy.png';
 import Shopvery from '../images/shopvery.jpg';
 import { HireMe, LinkButton, HiremePage } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
@@ -251,15 +251,35 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Initium </t.H2>
-                <t.P>Initium</t.P>
-                <t.P>A start-up for your startup</t.P>
-                <LinkButton primary bold className="link" as="a" target="_blank" href="https://initium.netlify.com/">
-                  Work in progress lorem ipsum dolor sit amet
+                <t.H2 bold>Startyfy </t.H2>
+                <t.P>Start-up for startups </t.P>
+                <t.P>
+                  A simple landing page with simple authentication system. Created with Laravel on one version and React
+                  + NodeJS on the other. Mobile based app are currently being developed.
+                </t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://startyfy-laravel.herokuapp.com/"
+                >
+                  Laravel v1
+                </LinkButton>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://startyfy-laravel.herokuapp.com/"
+                >
+                  React + NodeJS v2
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Initium} alt="Initium" />
+                <ItemImage src={Startyfy} alt="Initium" />
               </DivWrapper>
             </BlockContent>
           </Block>
