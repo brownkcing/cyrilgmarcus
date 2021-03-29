@@ -273,7 +273,7 @@ class Homepage extends React.Component {
                   className="link"
                   as="a"
                   target="_blank"
-                  href="https://startyfy-laravel.herokuapp.com/"
+                  href="https://startyfy-react.netlify.app//"
                 >
                   React + NodeJS v2
                 </LinkButton>
