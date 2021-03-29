@@ -265,6 +265,26 @@ class Homepage extends React.Component {
                   target="_blank"
                   href="https://startyfy-laravel.herokuapp.com/"
                 >
+                  Laravel + PHP
+                </LinkButton>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://startyfy-react.netlify.app/"
+                >
+                  ReactJS + NodeJS
+                </LinkButton>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://startyfy-laravel.herokuapp.com/"
+                >
                   Laravel v1
                 </LinkButton>
                 <LinkButton
@@ -279,7 +299,7 @@ class Homepage extends React.Component {
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Startyfy} alt="Initium" />
+                <ItemImage src={Startyfy} alt="Startyfy" />
               </DivWrapper>
             </BlockContent>
           </Block>
