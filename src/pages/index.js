@@ -324,7 +324,7 @@ class Homepage extends React.Component {
                   target="_blank"
                   href="https://codepen.io/brownkcing/full/ZPVZwK"
                 >
-                  Work in progress lorem ipsum dolor sit amet
+                  A work in progress, utilizing pure MERN stacks.
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -332,15 +332,15 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>An upcoming future project</t.H2>
+                <t.P></t.P>
+                <t.P></t.P>
                 <LinkButton primary bold className="link" as="a" target="_blank" href="#">
-                  Lorem ipsum
+                  Upcoming Project
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={Placeholder} alt="Upcoming Project" />
               </DivWrapper>
             </BlockContent>
           </Block>
